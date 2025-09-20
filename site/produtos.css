@@ -3,30 +3,12 @@ body {
     color: rgb(6, 46, 46);
 
 
-    background-image: url("imagens/pastos.jpeg"); 
+    background-image: url("imagens/pastos2.jpeg"); 
       background-repeat: no-repeat;       
       background-size: cover;             
-    background-position: center;
-}
+      background-position: center;
 
-/* Corrected media query syntax */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .colaboradores img {
-    width: 30%;
-  }
-  body {
-    font-size: 10px;
-  }
-}
 
-@media (max-width: 480px) {
-    .colaboradores img {
-        width: 20%;}
-  body {
-    font-size: 8px;
-  }
-}
-      
     header {
         padding-left: 30%;
         padding-right: 30%;
@@ -63,16 +45,6 @@ body {
         padding-right: 30px;
     }
 
-.container2 {
-        display: grid;
-        grid-template-columns: auto auto auto ;
-        margin-top: 45px;
-        margin-bottom: 45px;
-        gap: 8px;
-        padding: 1px;
-        align-items: center;
-
-    }
 
     .container {
         display: grid;
@@ -82,8 +54,7 @@ body {
         gap: 8px;
         padding: 1px;
         align-items: center;
-        display: flex;
-        flex-wrap: wrap;
+
     }
 
     .text {
@@ -92,7 +63,6 @@ body {
         color: rgb(0, 0, 0);
         padding-left: 15%;
         padding-right: 15%;
-        gap: 1px
     }
 
     .card {

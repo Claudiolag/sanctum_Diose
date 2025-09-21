@@ -1,41 +1,44 @@
-body {
-    background-color: rgb(255, 255, 255);
-    color: rgb(6, 46, 46);
-
-
-    background-image: url("imagens/pastos.jpeg"); 
-      background-repeat: no-repeat;       
-      background-size: cover;             
-    background-position: center;
-}
-
 /* Corrected media query syntax */
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  .colaboradores img {
-    width: 30%;
-  }
-  body {
-    font-size: 10px;
-  }
+    .colaboradores img {
+        width: 30%;
+    }
+
+    body {
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 480px) {
     .colaboradores img {
-        width: 20%;}
-  body {
-    font-size: 8px;
-  }
+        width: 20%;
+    }
+
+    body {
+        font-size: 8px;
+    }
+
 }
-      
+
+body {
+    color: rgb(6, 46, 46);
+
+
+    background-image: url("imagens/pastos.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
     header {
-        padding-left: 30%;
+        padding-left: 27%;
         padding-right: 30%;
         padding-top: 15px;
         padding-bottom: 15px;
-        background-color: rgb(0, 0, 0);
         gap: 10%;
         width: 100%;
         align-items: center;
+        font-size: x-large;
     }
 
 
@@ -63,17 +66,6 @@ body {
         padding-right: 30px;
     }
 
-.container2 {
-        display: grid;
-        grid-template-columns: auto auto auto ;
-        margin-top: 45px;
-        margin-bottom: 45px;
-        gap: 8px;
-        padding: 1px;
-        align-items: center;
-
-    }
-
     .container {
         display: grid;
         grid-template-columns: auto auto auto auto;
@@ -84,6 +76,28 @@ body {
         align-items: center;
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .container2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-top: 45px;
+        margin-bottom: 45px;
+        gap: 8px;
+        padding: 1px;
+        align-items: center;
+
+    }
+
+    .container3 {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        margin-top: 45px;
+        margin-bottom: 45px;
+        margin-right: 50px ;
+        gap: 8px;
+        padding: 1px;
+        align-items: center;
     }
 
     .text {

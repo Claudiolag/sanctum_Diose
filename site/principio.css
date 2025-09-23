@@ -1,30 +1,8 @@
-/* Corrected media query syntax */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    .colaboradores img {
-        width: 30%;
-    }
-
-    body {
-        font-size: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    .colaboradores img {
-        width: 20%;
-    }
-
-    body {
-        font-size: 8px;
-    }
-
-}
-
 body {
-    color: rgb(6, 46, 46);
+    color: rgb(115, 221, 221);
 
 
-    background-image: url("imagens/pastos.jpeg");
+    background-image: url("imagens/pastos3.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -41,6 +19,9 @@ body {
         font-size: x-large;
     }
 
+    p {
+        color: #9aebeb;
+    }
 
     main {
         margin-top: 20px;
@@ -64,6 +45,10 @@ body {
         display: inline-block;
         padding-left: 30px;
         padding-right: 30px;
+    }
+
+    h2{
+        color: #000000;
     }
 
     .container {
@@ -109,9 +94,18 @@ body {
         gap: 1px
     }
 
+    .text2 {
+        text-align: center;
+        font-size: larger;
+        color: rgb(255, 255, 255);
+        padding-left: 15%;
+        padding-right: 15%;
+        gap: 1px
+    }
+
     .card {
         width: 300px;
-        background-color: #e7f5dd;
+        background-color: #7ffce7d2;
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         overflow: hidden;
@@ -161,9 +155,54 @@ body {
     }
 
     .card button:hover {
-        background-color: #2980b9;
+        background-color: #28b433;
     }
 
 
+
+}
+
+/*Tablet*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .colaboradores img {
+        width: 25%;
+    }
+
+    body {
+        font-size: 12px;
+
+        header {
+            padding-left: 0.1%;
+            padding-right: 0.1%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            gap: 2%;
+            width: 100%;
+            align-items: center;
+            font-size: large;
+        }
+    }
+}
+
+/*Smartphone*/
+@media (max-width: 480px) {
+    .colaboradores img {
+        width: 15%;
+    }
+
+    body {
+        font-size: 10px;
+        
+        header {
+            padding-left: 0.1%;
+            padding-right: 0.1%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            gap: 0%;
+            width: 100%;
+            align-items: center;
+            font-size: large;
+        }
+    }
 
 }
